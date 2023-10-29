@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body .allinfo{
+            /* background: linear-gradient(to bottom, #66c2ff, #0066cc); */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        body{
+            background-image: url(louis-gan-WEa8A8LVM7A-unsplash.jpg);
+            background-size: cover;
+            /* opacity: 0.8; */
+            z-index: 2;
+        }
+        header {
+            background-color: transparent;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 10;
+            padding: 0.5em;
+            background-color: transparent;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: transparent;
+        }
+        nav ul li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .container .element-info{
+            box-shadow: 0 6px 10px rgba(0,0,0,.1), 0 -6px
+            10px rgba(0,0,0,.1) ;
+            padding: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .container .element-info .body1 .body2 .body3{
+            width: 49%;
+            display: inline;
+            vertical-align: top;
+            height: auto;
+        }
+        .container address img{
+            width: 600px;
+            height: 500px;
+        }
+        footer {
+            background-color:transparent;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <body class="allinfo">
+        <header>
+            <h1>WELCOME TO TIOMAN ISLAND</h1>
+            <nav>
+                <ul>
+                    <li><a class="active" href="mainpage.html">Home</a></li>
+                    <li><a class="active" href="aboutpage.html">About Us</a></li>
+                    <li><a class="active" href="packagepage.html">Packages</a></li>
+                    <li><a class="active" href="contactpage.html">Contact</a></li>
+                    <li><a class="active" href="signup-and-loginpage.html">Sign Up/Log In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <address><img src="paya-beach.jpg" alt="#"></address>
+            <div class="element-info">
+                <div class="body1">
+                    <p><b>Address:</b></p>
+                    <p>No 33 & 33A, ICT Hub, Indian Town, Jalan Putra Square 4, 25200 Kuantan Pahang.</p>
+                </div>
+                <div class="body2">
+                    <p><b>Tel no:</b></p>
+                    <p>09 5681624</p>
+                    <p><b>Fax:</b></p>
+                    <p>09 5681626</p>
+                </div>
+                <div class="body3">
+                    <h2>Follow us on</h2>
+                    <div class="body4">
+                        <a href="">Tourism Pahang</a>
+                        <a href="">Tourism Pahang</a>
+                        <a href="">tourismpahang</a>
+                        <a href="">tourismpahang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>&copy; 2023 Tioman Island. All rights reserved.</footer>
+    </body>
+</body>
+</html>

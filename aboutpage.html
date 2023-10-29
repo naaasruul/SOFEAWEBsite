@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav-style.css">
+    <title>About Us</title>
+    <style>
+        body .allinfo {
+            /* background: linear-gradient(to bottom, #66c2ff, #0066cc); */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        body {
+            background-image: url(louis-gan-WEa8A8LVM7A-unsplash.jpg);
+            background-size: cover;
+            margin: 0;
+
+        }
+
+        header {
+            background-color: transparent;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        
+        .element-body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .element-body div{
+            background-color: white 0.8;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            background-color:rgba(255,255,255,0.7);
+            /* padding: 50px 20px 10px 20px; */
+
+        }
+        .element-body button{
+            border: 1px solid;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: aquamarine;
+        }
+        .element-body img{
+            width: 300px;
+            height:200px;
+            border-radius:5px;;
+        }
+        .element-body button:hover{
+            background-color: #333;
+            color: #fff;
+        }
+        footer {
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="allinfo">
+        <header>
+            <h1>ABOUT US</h1>
+            <nav>
+                <ul>
+                    <li><a class="active" href="mainpage.html">Home</a></li>
+                    <li><a class="active" href="aboutpage.html">About Us</a></li>
+                    <li><a class="active" href="packagepage.html">Packages</a></li>
+                    <li><a class="active" href="contactpage.html">Contact</a></li>
+                    <li><a class="active" href="signup-and-loginpage.html">Sign Up/Log In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="element-body">
+            <div>
+                <h1>BEACH</h1>
+                <img src="louis-gan-WEa8A8LVM7A-unsplash.jpg" width="20px" height="20px">
+                <p>
+                    Tioman Island is renowned for its stunning beaches.
+                    One of the most popular is Long Beach, known for its crystal-clear water and vibrant marine life,
+                    making it ideal for snorkeling and diving. The Island's beaches provide a perfect backdrop for 
+                    relaxation and water activities, making Tioman a true tropical paradise.
+                </p>
+                <a href="#"><button>READ MORE</button></a>
+            </div>
+            <div>
+                <h1>ATTRACTION</h1>
+                <img src="penyu.jpg" width="20px" height="20px">
+                <p>
+                    Tioman Island offer a wide range of tourist attraction besides beautiful beaches and friendly villages.
+                    Surrounding Tioman are smaller islands that provide awesome snorkeling in crystal clear waters, looking
+                    at coral reefs of different colours, shapes and sizes, as well as a menagerie creatures big and small. 
+                </p>
+                <a href="#"><button>READ MORE</button></a>
+            </div>
+            <div>
+                <h1>ACTIVITIES</h1>
+                <img src="diving.jpg" width="20px" height="20px">
+                <p>
+                    Vibrant coral reefs reside under the sea waters off Tioman and neighbouring islands, as well as wrecks and
+                    caverns that attract a tropical variety of marine life, including fish, crustaceans and turtles.
+                    snorkeling is the most popular activity, followed by other ppursuits such as diving, beach sports, surfing,
+                    duty-free shopping, eating and more. 
+                </p>
+                <a href="#"><button>READ MORE</button></a>
+            </div>
+        </main>
+    <footer>&copy; 2023 Tioman Island. All rights reserved.</footer>
+</body>       
+</html>

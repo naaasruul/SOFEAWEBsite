@@ -1,0 +1,48 @@
+body{
+    /* background-image: url(img/header.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+form{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 4em;
+    padding: 2em;
+    top: 15%;
+    right: 20%;
+    width: 50%;
+    height: 70vh;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.row1,.row2,.row3{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    border: none;
+    width: 100%;
+}
